@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins','sans-serif';
+}
+body{
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+    scroll-margin:initial;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 2em;
+    color: #359381;
+    pointer-events: none;
+    margin-right: 190px;
+}
+.navigation a{
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.navigation a:hover{
+    background: #359381;
+    color: #f9f9f9;
+}
+.parallex{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; 
+}
+#text{
+    font-family: 'Mr Dafoe', cursive;
+    position: absolute;
+    font-size: 120px;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+}
+#work{
+    font-family: 'Hind Siliguri', sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 31px;
+    margin-left: 70px;
+}
+.parallex img{
+    position: absolute;
+    top : 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+.Closing img{
+    position: absolute;
+    top : 120.7%;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    z-index: 100;
+}
+.profile img{
+    max-width: 100%;
+    max-height: 150px; /* Set a maximum height for the photo */
+    border-radius: 5%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.profile-photo{
+    max-width: 100%;
+    max-height: 150px; /* Set a maximum height for the photo */
+    border-radius: 5%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);  
+}
+.temp{
+    font-size: 30px;
+    padding-top: 600px;
+} 
